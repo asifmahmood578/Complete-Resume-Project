@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Name</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+  ></script>
+    <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="scroll-view"><span><span id="scroll-id">0</span>% viewed</span></div>
+    <header id="body-header">
+        <nav>
+			<div class="dropdown-menu text-right">
+                <div class="bars">
+                   <i class="fa-solid fa-bars"></i> 
+                </div>
+                <div class="dropdown-list nav-menu">
+                    <ul class="no-list-style">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">
+                    My Name
+                </h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-stack-overflow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <!-- <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg"> -->
+                <img src="static/profile.jpeg">
+            </div>
+
+            <div id="about-para">
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and <span class="text-highlight">typesetting industry</span>. Lorem Ipsum has been the industry's standard <span class="text-highlight">dummy text ever</span> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <span class="text-highlight">with the release of Letraset</span> sheets containing Lorem Ipsum.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="skills">
+			<h1 class="section-heading mb75px">
+                <span><i class="fa-solid fa-chalkboard-user"></i></span>
+                <span>SKILLS</span>
+            </h1>
+            <div class="skills-display" id="skill-container">
+                <div class="skills-progress">
+                    <div class="eighty-five-percent mb-blue" data-bar-width="85" data-visited="false">
+                        <div class="skill-name">
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="fifty-five-percent mb-red" data-bar-width="55" data-visited="false">
+                        <div class="skill-name">
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="eighty-percent mb-purple" data-bar-width="80" data-visited="false">
+                        <div class="skill-name">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="sixtyfive-percent mb-green" data-bar-width="65" data-visited="false">
+                        <div class="skill-name">
+                            <span>Javascript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="fourty-percent" data-bar-width="40" data-visited="false">
+                        <div class="skill-name">
+                            <span>NodeJS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="seventy-percent" data-bar-width="75" data-visited="false">
+                        <div class="skill-name">
+                            <span>MangoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+			<h1 class="section-heading mb75px">
+                <span><i class="fa-solid fa-briefcase"></i></span>
+                <span>Work Experience</span>
+            </h1>
+            <div class="timeline">
+                <div class="timeline-boxes">
+                    <h5 class="timeline-boxes-headings">
+                        <span><i class="fa-solid fa-school"></i>&nbsp;</span>
+                        <span class="overflow-anywhere">School</span>
+                        <p>2004-2020</p>
+                    </h5>
+                    <div class="timeline-para">I have started my schooling from Tagore Academy from 2004-2018 and then for the intermediate I took admiision in Rajendra Vidyalaya.And I completed the intermediate in 2020.</div>
+        
+                </div>
+                <div class="timeline-boxes">
+                    <h5 class="timeline-boxes-headings">
+                        <span><i class="fa-solid fa-graduation-cap"></i>&nbsp;</span>
+                        <span class="overflow-anywhere">Graduation</span>
+                        <p>2021-2024</p>
+                    </h5>
+                    <div class="timeline-para">I am currently pursuing my Bachelor of Computer Applications (BCA) degree at Symbiosis Institute of Computer 
+                        Studies and Research in Pune. I am interested in Programming, DSA & Web Development field and am 
+                        seeking exciting opportunities related to the same.</div>
+                </div>
+                <div class="timeline-boxes">
+                    <h5 class="timeline-boxes-headings">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-bc685f166fdbe7c09f76228ae9f0100c">
+                        <span class="overflow-anywhere">&nbsp;Coding Ninjas</span>
+                        <p>2022-2023</p>
+                    </h5>
+                    <div class="timeline-para">I have learnt a Introduction to java and Data Structure and Algotithm from coding ninjas,And currently learning Full Stack Web Development.</div>
+                    
+                </div>
+                <div class="timeline-boxes">
+                    <h5 class="timeline-boxes-headings">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-bc685f166fdbe7c09f76228ae9f0100c">
+                    <span class="overflow-anywhere">&nbsp;Coding Ninjas</span>
+                    <p>2022-2023</p>
+                </h5>
+                <div class="timeline-para">I have learnt a Introduction to java and Data Structure and Algotithm from coding ninjas,And currently learning Full Stack Web Development.</div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="timeliner-plane"><i class="fa-solid fa-plane"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h1 class="section-heading mb75px">
+                <span><i class="fa-solid fa-graduation-cap"></i></span>
+                <span>Education</span>
+            </h1>
+            <div class="education-display">
+                <div class="education-boxes">
+                    <div class="images-heading">
+                        <div class="education-boxes-heading">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-bc685f166fdbe7c09f76228ae9f0100c">
+                        </div>
+                        <div class="inst-name-year">
+                            <p>Python</p>
+                            <p>Coding Ninjas</p>
+                            <p>2022-2023</p>
+                        </div>
+                    </div>
+                    <div class="education-para">
+                        I have learnt a Basic about python course from Coding Ninjas on August 2022.The mentors and teachers of coding Ninjas are great.They helped a lot, when i got stuck in code.. Guided by a genuine love for coding and a keen interest in Python's versatility, I have set out to explore the realm of this powerful programming language.
+                    </div>
+                </div>
+                <div class="education-boxes">
+                    <div class="images-heading">
+                        <div class="education-boxes-heading">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-bc685f166fdbe7c09f76228ae9f0100c">
+                        </div>  
+                        <div class="inst-name-year">
+                            <p>Java & DSA</p>
+                            <p>Coding Ninjas</p>
+                            <p>2022-2023</p>
+                        </div>
+                    </div>
+                    <div class="education-para">
+                       I am an individual who has embarked on a journey of learning and growth in the world of programming and computer science. My passion for coding led me to pursue a comprehensive course in Java and Data Structures and Algorithms (DSA) from Coding Ninjas, an esteemed online platform known for its quality education in the field of programming.
+
+                        During my learning experience with Coding Ninjas, I delved into the intricacies of Java, a versatile and widely-used programming language. I gained a deep understanding of Java's syntax, object-oriented principles, and its application in building real-world applications. Through hands-on coding exercises and projects, I honed my skills in writing efficient and maintainable Java code.
+                    </div>
+                </div>
+                <div class="education-boxes">
+                    <div class="images-heading">
+                        <div class="education-boxes-heading">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-bc685f166fdbe7c09f76228ae9f0100c">
+                        </div>
+                        <div class="inst-name-year">
+                            <p>Mern Stack</p>
+                            <p>Coding Ninjas</p>
+                            <p>2022-2023</p>
+                        </div>
+                    </div>
+                    <div class="education-para">
+                        I am an enthusiastic and aspiring Full Stack Web Developer, currently on a learning journey with Coding Ninjas, an esteemed online platform known for providing top-notch education in various programming disciplines. Guided by my passion for technology and web development, I have taken up the challenge of mastering the art of Full Stack Web Development.
+
+At Coding Ninjas, I am immersed in a comprehensive course that covers every aspect of web development, from front-end to back-end. Starting with front-end development, I have dived into the world of HTML, CSS, and JavaScript, learning to build visually appealing and interactive user interfaces. 
+                    </div>
+                </div>
+                <div class="timeline-divider-edu">
+                    <div class="timeliner-car"><i class="fa-solid fa-car-side"></i></div>
+                </div>
+            </div>
+        </section>    
+
+
+        <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span><i class="fa-sharp fa-solid fa-bars-progress"></i></span>
+                <span>Portfolio</span>
+            </h1>
+            <div class="portfolio-display">
+                <div class="images">
+                    <div class="firstimage">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="firstimage">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="firstimage">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="firstimage">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="firstimage">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    </div>
+                </div>
+
+                <div class="images">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    <div class="details">
+                        <p>
+                            Write here basic details about the project
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span><i class="far fa-address-card"></i></span>
+                <span>Contact</span>
+            </h1>
+            <div id="contact-container">
+                <form id="contact-form">
+                    <input type="text" id="input-name" name="name" required placeholder="Your Name">
+                    <input type="text" id="input-email" name="input-email" required placeholder="Your Email">
+                    <textarea id="input-message" name="input-message" row="2" col=40 placeholder="Message"></textarea>
+                    <button class="sub-btn" type="submit">
+                        SEND MESSAGE
+                    </button>
+                </form>
+                <div class="Get-in-Address">
+                	<div id="get-in-touch">
+                    <h4>
+                       Get in touch 
+                    </h4>
+                    <p>
+                      I am currently pursuing my Bachelor of Computer Applications (BCA) degree at Symbiosis Institute of Computer 
+                    Studies and Research in Pune. I am interested in Programming, DSA & Web Development field and am 
+                    seeking exciting opportunities related to the same.
+  
+                    </p>
+                </div>
+                <div id="myAddress">
+                    <h4>
+                        My Address
+                    </h4>
+                    <ul id="Addresslist">
+                      <li><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;&nbsp;Jamshedpur, India</li>  
+                      <li><i class="fa-sharp fa-solid fa-mobile-screen-button"></i>&nbsp;&nbsp;9097169939</li>
+                      <li><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;asifmahmood578@gmail.com</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+                <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-stack-overflow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
